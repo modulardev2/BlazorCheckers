@@ -1,0 +1,44 @@
+﻿.cell {
+	height: 80px;
+	width: 80px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.cell.active {
+	border: 3px solid blue;
+}
+
+.row:nth-child(2n) .cell:nth-child(2n+1) 
+{
+	background: tan;
+}
+.row:nth-child(2n) .cell:nth-child(2n) {
+	background: #eee;
+}
+.row:nth-child(2n+1) .cell:nth-child(2n+1) {
+	background: #eee;
+}
+
+.row:nth-child(2n+1) .cell:nth-child(2n) {
+	background: tan;
+}
+
+.checker {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.checker.active {
+	border: 3px solid teal;
+}
+
+.checker.black {
+	background: #000;
+}
+
+	.checker.white {
+		background: #fff;
+	}
