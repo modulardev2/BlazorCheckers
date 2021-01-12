@@ -35,8 +35,15 @@
 	border: 3px solid teal;
 }
 
+.checker span {
+	text-align: center;
+	margin-top: 10px;
+	display: block;
+}
+
 .checker.black {
 	background: #000;
+	color: #fff;
 }
 
 	.checker.white {
